@@ -14,6 +14,7 @@ import ProjectsSection from '@/components/sections/ProjectsSection'
 import AboutSection from '@/components/sections/AboutSection'
 import ResumeSection from '@/components/sections/ResumeSection'
 import ContactSection from "@/components/sections/ContactSection"
+import Footer from '@/components/sections/Footer'
 
 
 // Progress Bar
@@ -40,6 +41,7 @@ export default function Portfolio() {
         <AboutSection />
         <ResumeSection />
         <ContactSection />
+        <Footer />
       </main>
       <Toaster />
     </div>

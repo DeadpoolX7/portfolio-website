@@ -31,7 +31,7 @@ function ProjectsSection() {
     },
     {
       title: "Eco-Rewards",
-      description: "A revolutionary smart city solution that incentivizes citizens to adopt eco-friendly practices through a reward-based system.",
+      description: "A revolutionary smart city solution that incentivizes citizens to adopt eco-friendly practices through a reward-based system. Built during AMUHACKS 4.0. 36-hour Hackathon.",
       tech: ["React","Vite", "Firebase", "Firebase Auth", "Firebase DB", "Gemini","Tailwind","Daisy UI", "Vercel"],
       github: "https://github.com/BitByte_AMUHACKS4.0/",
       demo: "https://bit-byte-amuhacks-4-0.vercel.app/",

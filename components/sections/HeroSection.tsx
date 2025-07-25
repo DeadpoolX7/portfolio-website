@@ -3,13 +3,14 @@
 import type React from 'react'
 
 import Image from 'next/image'
-import useTypingAnimation from '@/hooks/use-typingAnimation'
+import { useMultipleTypingAnimation } from '@/hooks/use-typingAnimation'
 import { Button } from '@/components/ui/button'
 import { motion } from 'framer-motion'
 import { Mail, Download } from 'lucide-react'
 
 function HeroSection() {
-  const typedText = useTypingAnimation("Full Stack Developer", 100)
+  const typingTexts = ["Full Stack Developer", "Frontend Developer", "Backend Developer", "Web Developer", "Programmer"]
+  const typedText = useMultipleTypingAnimation(typingTexts, 80, 1200)
 
   return (
     <section id="home" className="min-h-screen flex items-center justify-center pt-20">
@@ -80,7 +81,7 @@ function HeroSection() {
             <Button
               size="lg"
               variant="outline"
-              onClick={() => window.open("https://drive.google.com/file/d/1As4WTXCXvJpF6gwxwduBQ2LFNKQ52Jda/view?usp=drive_link", "_blank")}
+              onClick={() => window.open(process.env.NEXT_PUBLIC_GOOGLE_DRIVE_RESUME_LINK!, "_blank")}
               className="w-full sm:w-auto"
             >
               <Download className="w-4 h-4 mr-2" />
