@@ -12,7 +12,7 @@ function AboutSection() {
   const skills = [
     { name: "Languages", icon: Smartphone, items: ["JavaScript", "Java", "TypeScript", "C++", "C", "Python"] },
     { name: "Frontend", icon: Globe, items: ["React", "Next.js", "TypeScript", "Tailwind CSS","ShadCn", "DaisyUI"] },
-    { name: "Backend", icon: Database, items: ["Node.js", "Express", "Python", "PostgreSQL", "MongoDB"] },
+    { name: "Backend", icon: Database, items: ["SpringBoot","Node.js", "Express",,"MySQL", "PostgreSQL", "MongoDB"] },
     { name: "Tools", icon: Code, items: ["Linux", "Git", "Docker", "Podman",  "AWS", "Vercel", "Netlify"] },
   ]
 
@@ -43,9 +43,9 @@ function AboutSection() {
             <div>
               <h3 className="text-2xl font-semibold mb-4">My Story</h3>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                I started my journey in web development 2 years ago(in 2023), driven by a passion for creating digital
+                I started my web development journey in 2023, driven by a passion for creating digital
                 experiences that make a difference. What began as curiosity about how websites work has evolved into a
-                career focused on building scalable, user-friendly applications.
+                career focused on building scalable, user-friendly applications. Leraning Java, JavaScript, TypeScript, Express, Springboot etc.
               </p>
               <p className="text-muted-foreground leading-relaxed">
                 I believe in writing clean, maintainable code and staying up-to-date with the latest technologies. When

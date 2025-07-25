@@ -13,7 +13,7 @@ import { Textarea } from "@/components/ui/textarea"
 import { Input } from "@/components/ui/input"
 import emailjs from '@emailjs/browser'
 
-import {Phone, Mail, MapPin, Github, Linkedin} from 'lucide-react'
+import {Phone, Mail, MapPin, Github, Linkedin, Twitter, Code} from 'lucide-react'
 
 function ContactSection() {
   const { toast } = useToast()
@@ -64,7 +64,7 @@ function ContactSection() {
         email: formData.email,
         message: formData.message,
       },
-      "kPTLGAlbHR3gCHPnH"
+      process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_ID!
     )
 
     toast({
@@ -145,6 +145,16 @@ function ContactSection() {
                 <Button size="icon" variant="outline" asChild>
                   <a href="https://linkedin.com/in/sanju-shaw-225ab4214/" target='_blank'>
                     <Linkedin className="w-4 h-4" />
+                  </a>
+                </Button>
+                <Button size="icon" variant="outline" asChild>
+                  <a href="https://x.com/@class_sanju" target='_blank'>
+                    <Twitter className="w-4 h-4" />
+                  </a>
+                </Button>
+                <Button size="icon" variant="outline" asChild>
+                  <a href="https://leetcode.com/shawsanju411" target='_blank'>
+                    <Code className="w-4 h-4" />
                   </a>
                 </Button>
               </div>
