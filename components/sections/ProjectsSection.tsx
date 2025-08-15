@@ -33,9 +33,17 @@ function ProjectsSection() {
       title: "Eco-Rewards",
       description: "A revolutionary smart city solution that incentivizes citizens to adopt eco-friendly practices through a reward-based system. Built during AMUHACKS 4.0. 36-hour Hackathon.",
       tech: ["React","Vite", "Firebase", "Firebase Auth", "Firebase DB", "Gemini","Tailwind","Daisy UI", "Vercel"],
-      github: "https://github.com/BitByte_AMUHACKS4.0/",
+      github: "https://github.com/DeadpoolX7/BitByte_AMUHACKS4.0/",
       demo: "https://bit-byte-amuhacks-4-0.vercel.app/",
       image: "assets/eco-rewards-hero.png?height=200&width=300",
+    },
+     {
+      title: "dhara",
+      description: "Lightweight CLI tool for seamless file transfer using just QR, no cloud, no cable.",
+      tech: ["TypeScript","Bun", "commander", "qr-terminal", "npm", "npm package","Github","npm registry", "CLI"],
+      github: "https://github.com/DeadpoolX7/dhara/",
+      demo: "https://npmjs.com/package/dhara",
+      image: "https://drive.google.com/file/d/1QwPi5amiZgKsgWqf_CgWI7yFNV7o3P9r/view?usp=sharing",
     },
     
     /* {
