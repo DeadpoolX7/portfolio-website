@@ -43,7 +43,7 @@ function ProjectsSection() {
       tech: ["TypeScript","Bun", "commander", "qr-terminal", "npm", "npm package","Github","npm registry", "CLI"],
       github: "https://github.com/DeadpoolX7/dhara/",
       demo: "https://npmjs.com/package/dhara",
-      image: "https://drive.google.com/file/d/1QwPi5amiZgKsgWqf_CgWI7yFNV7o3P9r/view?usp=sharing",
+      image: "https://drive.google.com/file/d/1QwPi5amiZgKsgWqf_CgWI7yFNV7o3P9r/view",
     },
     
     /* {
